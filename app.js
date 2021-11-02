@@ -3,13 +3,13 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('<h1>Node AWS Boilerplate WC21 APP</h1><ul> <h2>LIST OF API:</h2><li>/wc21/top-scorer</li><li>/wc21/best11</li></ul>')
+    res.send('<h1>Node AWS Boilerplate WC21 APP</h1><ul> <h2>API LIST UPDATED</h2><li>/wc21/top-scorer</li><li>/wc21/best11</li></ul>')
 })
 
 app.get('/wc21/top-scorer', (req, res) => {
     res.send([{
         "player_id": '121',
-        "name": "Virat Kohli"
+        "name": "Kane Williamson"
     },
     {
         "player_id": '131',
